@@ -1,0 +1,79 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(237, 246, 250);
+    text-align: center;
+}
+main{
+    margin: 100px;
+}
+
+.title:first-child div{
+ border: 1px solid rgb(4, 115, 241);
+ width: 50px;
+margin-bottom: 20px;
+ margin: auto;
+}
+.inside{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px 1px rgb(163, 163, 163);
+    width: 300px;
+    margin-top: 20px;
+    height: auto;
+    text-align: center;
+    padding: 20px;
+}
+.inside img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.inside h4 {
+    margin-top: 0px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.inside p {
+    margin-top: -15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   
+}
+.inside>#job{
+    text-transform: uppercase; 
+    color: dodgerblue;
+    font-weight: 800;
+    font-family: 'Courier New', Courier, monospace;
+}
+.btn-container>.prev-btn,.next-btn{
+    background-color: transparent;
+    border: none;
+    padding: 10px;
+    margin-top: -10px;
+    font-size: 24px;
+    color:dodgerblue ;
+    transition: 0.2s;
+}
+.btn-container>.prev-btn,.next-btn:hover{
+    background-color: transparent;
+    border: none;
+    font-size: 24px;
+    color:rgb(0, 105, 209) ;
+}
+.inside >.random-btn{
+    background-color: transparent;
+    border: 1px solid dodgerblue;
+    padding: 5px;
+    border-radius: 5px;
+    width: 100px;
+    font-size: 18px;
+    color:dodgerblue ;
+    transition: 0.2s;
+    margin-top: -5px;
+    transition: 0.5s;
+}
+.inside >.random-btn:hover{
+    background-color:dodgerblue;
+    color: white;
+}
